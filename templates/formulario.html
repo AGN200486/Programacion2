@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Formulario</title>
+    <link rel="icon" href="img/AppleTrucho.ico">
+</head>
+<body>
+    <header>
+        <a href="C:\Users\Agustín\Desktop\Tecnicatura\Programacion 2\Practica1,2,3y4\index.html" style="text-decoration: none;">Inicio</a>
+        <a href="galeria.html" style="text-decoration: none;">Galeria</a>
+        <a href="tabla.html" style="text-decoration: none;">Tabla</a>
+        <a href="lista.html" style="text-decoration: none;">Lista</a>
+        <a href="formulario.html">Formulario</a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;">Google</a>
+    </header>
+    <main><br><nav>
+    <h2 class="animate__animated animate__backInUp">Contacto</h2><br>
+    <form action="enviar.php" method="post" enctype="text/plain">
+        <label for="nombre1">Nombre</label>
+        <input type="text" name="nombre1" id="nombre1" required placeholder="Su Nombre"><br>
+        <label for="apellido1">Apellido</label>
+        <input type="text" name="apellido1" id="apellido1" required placeholder="Su apellido"><br>
+        <label for="fecha1">fecha</label>
+        <input type="date" name="fecha1" id="fecha1" required placeholder="Su Fecha de Nacimiento"><br>
+        <label for="edad1">edad</label>
+        <input type="number" name="edad1" id="edad1" required placeholder="Su Edad"><br>
+        <label for="email1">Correo Electronico</label>
+        <input type="email" name="email1" id="email1" required placeholder="ejemplo@ejemplo.com"><br>
+        <label for="tel1">Telefono</label>
+        <input type="tel" name="tel1" id="tel1" required placeholder="Su Telefono"><br>
+        <label>Descripción del pedido</label><br>
+        <textarea cols="30" rows="5" required placeholder="Tipo de abertura, medidas, detalles, etc"></textarea><br>
+        <h4>Sexo:</h4>
+        <p class="sexo">Hombre</p>
+        <input class="sexo" type="radio" name="sexo" value="hombre">
+        <p class="sexo">Mujer</p>
+        <input class="sexo" type="radio" name="sexo" value="mujer">
+        <p class="sexo">No binario</p>
+        <input class="sexo" type="radio" name="sexo" value="no binario"><br>
+            <input class="boton" type="submit" value="Enviar">
+            <input class="boton" type="reset" value="Borrar">
+            <input class="boton" type="button" value="Nada">
+        <h2>Radio</h2>
+            <input type="radio" name="opcion" value="AppWeb">AppWeb
+            <input type="radio" name="opcion" value="Analisis de Datos">Analisis de Datos
+            <input type="radio" name="opcion" value="Desarrollo de Juegos">Desarrollo de Juegos
+    </form>
+    </nav>
+    </main>
+    <footer></footer>
+</body>
+</html>
