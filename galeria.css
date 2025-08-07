@@ -38,3 +38,15 @@ body{
 .titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#seccion2{
+    width: 500px;
+    height: 400px;
+    background-color:cornflowerblue
+}
+
+.icon{
+    margin: 0%;
+    width: 2px;
+    height: 2px;
+ 
+}
