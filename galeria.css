@@ -1,0 +1,40 @@
+:root{
+    --color-letras: blue;
+    --color-fondo:rgb(108, 114, 224);
+    --color-fondo2: rgb(52, 144, 183);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 143, 172);
+    color: white;
+    height: 50px;
+}
+
+body{
+    background-color: var(--color-fondo);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-fondo2);
+    border: 2px;
+}
+
+.imagen{
+    max-width: 100%;
+    width: 400px;
+    height: 200px;
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
