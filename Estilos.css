@@ -8,6 +8,7 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 header{
@@ -21,4 +22,6 @@ header{
     height: 7vh;
     border-radius: 50%
 }
+
+
 
